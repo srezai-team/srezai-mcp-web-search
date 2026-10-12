@@ -2,7 +2,7 @@
 
 ## Куда отправлять правки / Where to send changes
 
-Исходный репозиторий — **[github.com/srezai-team/srezai-mcp](https://github.com/srezai-team/srezai-mcp)**.
+Исходный репозиторий — **[github.com/srezai-team/srezai-mcp-web-search](https://github.com/srezai-team/srezai-mcp-web-search)**.
 Issues и pull request'ы принимаются только там.
 
 Копия на [gitverse.ru/a1_ai_a4b/srezai-mcp](https://gitverse.ru/a1_ai_a4b/srezai-mcp) —
@@ -12,7 +12,7 @@ Issues и pull request'ы принимаются только там.
 пришлите патч (`git format-patch`) на support@srezai.ru — приложим от вашего имени.
 
 The upstream repository is
-**[github.com/srezai-team/srezai-mcp](https://github.com/srezai-team/srezai-mcp)**;
+**[github.com/srezai-team/srezai-mcp-web-search](https://github.com/srezai-team/srezai-mcp-web-search)**;
 issues and pull requests go there. The
 [GitVerse copy](https://gitverse.ru/a1_ai_a4b/srezai-mcp) is a push-only mirror,
 so a commit made there conflicts with upstream history on the next sync and gets

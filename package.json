@@ -5,13 +5,13 @@
   "license": "MIT",
   "author": "срезAI <support@srezai.ru>",
   "homepage": "https://srezai.ru",
-  "mcpName": "io.github.srezai-team/srezai-mcp",
+  "mcpName": "io.github.srezai-team/srezai-mcp-web-search",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/srezai-team/srezai-mcp.git"
+    "url": "git+https://github.com/srezai-team/srezai-mcp-web-search.git"
   },
   "bugs": {
-    "url": "https://github.com/srezai-team/srezai-mcp/issues"
+    "url": "https://github.com/srezai-team/srezai-mcp-web-search/issues"
   },
   "keywords": [
     "mcp",
