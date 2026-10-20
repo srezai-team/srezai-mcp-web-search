@@ -2,12 +2,13 @@
 
 MCP-сервер [срезAI](https://srezai.ru) — поисковый API для ИИ-агентов: живой
 веб-поиск по Рунету и глобальному вебу, чтение страниц в чистый Markdown, карта
-сайта, извлечение по схеме, проверка утверждений, готовые ответы и многошаговое
-исследование как встроенные инструменты ИИ-агента.
+сайта, извлечение по схеме, проверка утверждений, готовые ответы, многошаговое
+исследование и субтитры YouTube как встроенные инструменты ИИ-агента.
 
 MCP server for [SrezAI](https://srezai.ru) — a search API for AI agents: live web
 search, page reading into clean Markdown, site map, schema-based extraction,
-claim verification, ready answers and multi-step research as native agent tools.
+claim verification, ready answers, multi-step research and YouTube transcripts as
+native agent tools.
 
 ## Нужен ли вам этот пакет / Do you need this package
 
@@ -59,6 +60,7 @@ cmd /c "set SREZAI_API_KEY=srz_live_ваш_ключ && npx -y srezai-mcp"
 | `image_search` | Картинки: прямые ссылки, источник, разрешение |
 | `read_url` | Страница → чистый Markdown; длинная приходит окнами по `offset` |
 | `read_urls` | То же, до 5 страниц за вызов |
+| `yt_srt` | Субтитры ролика YouTube (ручные или авто) → текст в контекст агента; окно `from`/`to`, таймкоды, до 5 роликов за вызов. Видео и звук не скачиваются |
 | `fetch_page` | Рендер в браузере: скриншот и Markdown; если рендер не удался — текст за 1 кредит вместо 3 |
 | `extract` | Только запрошенные поля по вашей схеме, без текста страницы; до 5 ссылок |
 | `verify_claim` | Вердикт `supported` / `refuted` / `mixed` / `unverified` с дословными цитатами по 2–5 независимым доменам |
