@@ -65,6 +65,27 @@ Ask the agent: *"Search the web for the latest Node.js release and give me the l
 It should call `web_search` and return links. `get_usage` is a free tool for checking
 balance and daily limits.
 
+## Claude Code (plugin marketplace)
+
+This repository is also a Claude Code plugin marketplace. The plugin
+`srezai-web-access` connects the remote MCP server with no stdio wrapper:
+
+```
+/plugin marketplace add srezai-team/srezai-mcp-web-search
+/plugin install srezai-web-access@srezai-mcp
+```
+
+Authentication: without a key the server runs in free trial mode (25 requests/day
+per IP). For paid tools add the key manually:
+
+```
+claude mcp add --transport http srezai https://srezai.ru/api/mcp \
+  --header "Authorization: Bearer srz_live_YOUR_KEY"
+```
+
+Marketplace files: `.claude-plugin/marketplace.json`,
+`plugins/srezai-web-access/` (`.claude-plugin/plugin.json` + `.mcp.json`).
+
 ## Pricing and limits
 
 - Trial without a key: 25 requests/day per IP.
