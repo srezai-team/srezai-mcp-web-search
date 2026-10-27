@@ -1,0 +1,16 @@
+{
+  "name": "srezai-mcp",
+  "owner": {
+    "name": "srezAI",
+    "url": "https://srezai.ru"
+  },
+  "description": "Плагины срезAI для Claude Code: веб-доступ для ИИ-агентов через MCP-сервер srezai.ru.",
+  "plugins": [
+    {
+      "name": "srezai-web-access",
+      "source": "./plugins/srezai-web-access",
+      "description": "Веб-доступ для ИИ-агентов: поиск по живому вебу, чтение страниц в Markdown, проверка фактов с цитатами, исследование темы — 14 инструментов MCP.",
+      "category": "research"
+    }
+  ]
+}
