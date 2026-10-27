@@ -1,0 +1,8 @@
+{
+  "identifier": "srezai-mcp",
+  "name": "срезAI Web Access",
+  "version": "0.1.4",
+  "description": "Web access for AI agents: live web search (strong Russian-web coverage), clean-Markdown page reading, site map, section crawl, schema-based extraction, claim verification with quoted sources, ready answers, multi-step research and YouTube transcripts — 14 tools.",
+  "homepage": "https://srezai.ru",
+  "cloudEndpoint": "https://srezai.ru/api/mcp"
+}
