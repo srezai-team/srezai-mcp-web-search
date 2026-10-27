@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "srezai": {
+      "type": "http",
+      "url": "https://srezai.ru/api/mcp"
+    }
+  }
+}
