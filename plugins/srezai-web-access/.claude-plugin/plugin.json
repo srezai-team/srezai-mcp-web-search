@@ -1,0 +1,18 @@
+{
+  "name": "srezai-web-access",
+  "displayName": "срезAI Web Access",
+  "version": "0.1.0",
+  "description": "Веб-доступ для ИИ-агентов: поиск по живому вебу, чтение страниц в чистый Markdown, проверка утверждений с цитатами, извлечение данных по схеме и исследование темы. 14 инструментов MCP-сервера srezai.ru.",
+  "author": {
+    "name": "срезAI",
+    "url": "https://srezai.ru"
+  },
+  "homepage": "https://srezai.ru",
+  "repository": "https://github.com/srezai-team/srezai-mcp-web-search",
+  "license": "MIT",
+  "documentationUrl": "https://srezai.ru/docs/mcp",
+  "supportUrl": "https://srezai.ru/connect",
+  "privacyPolicyUrl": "https://srezai.ru/legal/privacy",
+  "termsOfServiceUrl": "https://srezai.ru/legal/terms",
+  "keywords": ["mcp", "web-search", "web-scraping", "research", "fact-check", "russian-web"]
+}
