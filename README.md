@@ -103,6 +103,29 @@ Without a key the bridge still starts and serves `initialize` and `tools/list` �
 the tool list is public, which is how MCP directories read it. Calling a tool
 returns an error asking you to set `SREZAI_API_KEY`.
 
+## Claude Code: плагин из маркетплейса / Claude Code plugin
+
+Репозиторий сам является маркетплейсом Claude Code: плагин `srezai-web-access`
+подключает удалённый MCP-сервер srezai.ru одной командой.
+
+```
+/plugin marketplace add srezai-team/srezai-mcp-web-search
+/plugin install srezai-web-access@srezai-mcp
+```
+
+После установки сервер `srezai` работает как обычный MCP с 14 инструментами.
+Без ключа действует бесплатный режим — 25 запросов в сутки с одного IP. Для
+платных инструментов ключ добавляется вручную:
+
+```
+claude mcp add --transport http srezai https://srezai.ru/api/mcp \
+  --header "Authorization: Bearer srz_live_ваш_ключ"
+```
+
+Файлы маркетплейса: `.claude-plugin/marketplace.json` и
+`plugins/srezai-web-access/` (`.claude-plugin/plugin.json` + `.mcp.json`).
+Валидация: `claude plugin validate .` → «Validation passed».
+
 ## Разработка / Development
 
 ```bash
